@@ -1,0 +1,79 @@
+/* ALTERAR PARA TODOS OS ELEMENTOS */
+html * {
+    /* RESETAR A MARGEM */
+    margin: 0px;
+    /* LARGURA MÁXIMA DOS ELEMENTOS */
+    max-width: 100%;
+}
+
+body {
+    /* COR DE FUNDO */
+    background-color: #111111;
+}
+
+#logotipo {
+    /* LARGURA DO LOGOTIPO */
+    width: 300px;
+    /* MARGEM DO LOGOTIPO */
+    margin: 20px;
+}
+
+#menu{
+    background-color: #593806;
+    margin-bottom: 20px;
+    border-top: 10px solid #3f2702;
+    border-bottom: 10px solid #3f2702;
+    padding: 10px;
+
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+
+    text-align: center;
+
+}
+
+#menu a{
+    color: white;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-family: sans-serif;
+}
+
+#menu a:hover {
+    color: #000000;
+    background-color: rgb(214, 127, 27);
+}
+
+
+.principal {
+    /* ATIVAR O MODO GRID (LINHAS E COLUNAS) */
+    display: grid;
+
+    /* ELEMENTOS DENTRO DA CLASSE PRINCIPAL NO FORMATO DE 3 COLUNAS */
+    grid-template-columns: repeat(3, 1fr);
+
+    /* ESPAÇAMENTO ENTRE COLUNAS E LINHAS DO GRID */
+    gap: 20px;
+}
+
+    .item{
+        background-color: #CFA76E;
+        font-family: sans-serif;
+        text-transform: uppercase;
+        margin: 20px;
+        color: #593806;
+        border-top: 5px solid #593806;
+        border-radius: 1%;
+        text-align: center;
+    }
+
+    .rodape {
+        background-color: #593806;
+        height: 100px;
+    
+        display: grid;
+        justify-content: center;
+        align-content: center;
+    
+    }
+    
